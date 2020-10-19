@@ -1,7 +1,7 @@
 //Prints my name and my fullname
 let name = 'Jaz Aduhene'
 let firstName = 'Jaz'
-let lastName = "Aduhene"
+let lastName = 'Aduhene'
 
 //Below used concatenation to combine strings
 let fullName = firstName + ' ' + lastName  
