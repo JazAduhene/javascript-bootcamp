@@ -1,4 +1,5 @@
-// Rule 1. Below an example of invalid variable, cannot define a variable twice
+// Rule 1. Below an example of invalid variable, cannot define a variable more than once
+
 
 let petName = 'Jah'
 //let petName = 'Spot'
