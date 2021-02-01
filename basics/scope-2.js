@@ -1,9 +1,9 @@
 // Global ()
- // Local ()
-   // Local
+ // Local () - Variable shadowing
+    //Local (name)
  // Local
 
-// let name = 'Jasmine'
+ // let name = 'Jasmine'
 
 if (true) {
     // let name = 'Jon' // Variable shadowing, the local variable is hiding the global, basically overrides it.
