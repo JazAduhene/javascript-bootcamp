@@ -29,7 +29,7 @@ let tip = getTip(60)
 // Regular string
 console.log('Jaz' + ' Aduhene') // I can use single quotes or double quotes to make a string, it doesnt make a difference
 
-// Template string  
+// Template string - Preferable
 let name = 'Jaz'
 let age = 24
 console.log(`Hey, my name is ${name}! I am ${age} years old.`) // Backticks, this format make the syntax easier to read and change
