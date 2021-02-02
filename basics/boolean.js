@@ -5,7 +5,7 @@
 // <= - less than or equal to operator
 // >= - greater than or equal to operator
 
-let temp = 31
-let isFreezing = temp <= 32 
+let temp = 31;
+let isFreezing = temp <= 32;
 
-console.log(isFreezing)
+console.log(isFreezing);
