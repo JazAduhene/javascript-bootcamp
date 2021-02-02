@@ -11,5 +11,5 @@
 7. Expanding My JavaScript Knowledge
 8. Advanced Objects and Functions
 9. Asynchronous JavaScript
-10. App Themes utilising CSS
+10. App Themes Utilising CSS
 11. Utilising Babel and Webpack
