@@ -2,20 +2,20 @@
     // Local scope (fahrenheit - which is the function argument, celsius)
         // Local scope (isFreezing)
 let convertFahrenheitToCelsius = function (fahrenheit) {
-    let celsius = (fahrenheit - 32) * 5 / 9
+    let celsius = (fahrenheit - 32) * 5 / 9;
 
     if (celsius <= 31) { // Just because I create something inside a function doesnt mean its accessible outside the function.
-        let isFreezing = true
-        console.log('Its chilly')
+        let isFreezing = true;
+        console.log('Its chilly');
     } else {
-        console.log('Its warm')
+        console.log('Its warm');
     }
 
-    return celsius // retruns the temeperature in celcius, which is the converted value
+    return celsius; // retruns the temeperature in celcius, which is the converted value
 }
 
-let tempOne = convertFahrenheitToCelsius(90)
-let tempTwo = convertFahrenheitToCelsius(50)
+let tempOne = convertFahrenheitToCelsius(90);
+let tempTwo = convertFahrenheitToCelsius(50);
 
-console.log(tempOne)
-console.log(tempTwo)
+console.log(tempOne);
+console.log(tempTwo);
