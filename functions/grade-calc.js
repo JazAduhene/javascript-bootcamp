@@ -3,8 +3,8 @@
 // 15/20 -> You got a C (75%)!
 // A 90-100, B 80-89, C 70-79, D 60-69, F 0-59
 
-let gradeCalc = function (score, totalScore) {  // This section is the argument
-    let percent = (score / totalScore) * 100;
+const gradeCalc = function (score, totalScore) {  // This section is the argument
+    const percent = (score / totalScore) * 100;
     let letterGrade = '';
 
     if (percent >= 90) { // This is the code that tells the program what to do
@@ -21,5 +21,5 @@ let gradeCalc = function (score, totalScore) {  // This section is the argument
     return `You got a ${letterGrade} (${percent})%!`; // Where and how the result is returned
 }
 
-let result = gradeCalc(19, 20); // Calling the function by referencing it by name
-console.log(result); // Console logging the result. 
+const result = gradeCalc(19, 20); // Calling the function by referencing it by name
+console.log(result); // Console logging the result.
