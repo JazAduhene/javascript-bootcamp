@@ -6,7 +6,13 @@ todo.push('New item');
 console.log(todo.shift());
 
 console.log(`You have ${todo.length} todos!`); // Prints 'You have 5 todos'
-console.log(todo);
+
+todo.forEach(function (todo, index) {
+    const num = index + 1;
+    console.log(`${num}. ${todo}`)
+});
+
+// console.log(todo);
 
 // console.log(`Todo: ${todo[0]}, ${todo[todo.length - 2]}`); // Prints the first and second to last items
 
