@@ -20,3 +20,14 @@ notes.forEach(function (item, index) { // Callback function is a function that g
 
 console.log(notes.length);
 console.log(notes); // Index starts at 0 for arrays
+
+// Counting... 1
+
+for (let count = 0; count <= 2; count++) { // Starts the count at index 0, check the condition to see if the value is true, if it is then runs the code for the very first time.  
+    console.log(count); // Code prints 0 to the screen, then increases the count by 1 then check this using count++
+}
+
+for (let count = 2; count >=0; count--) { // Decrement example
+    console.log(count);
+}
+
