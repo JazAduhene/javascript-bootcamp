@@ -7,10 +7,18 @@ console.log(todo.shift());
 
 console.log(`You have ${todo.length} todos!`); // Prints 'You have 5 todos'
 
-todo.forEach(function (todo, index) {
+todo.forEach(function (todo, index) { // Stick with forEach to count in order from beginning to end, otherwise use for statement
     const num = index + 1;
-    console.log(`${num}. ${todo}`)
+    console.log(`${num}. ${todo}`);
 });
+
+// Challenge area
+
+for (let count = 0; count < todo.length; count++) {
+    const num = count + 1;
+    const todoList = todo[count];
+    console.log(`${num}. ${todoList}`);
+}
 
 // console.log(todo);
 
