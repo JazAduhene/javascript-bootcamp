@@ -38,3 +38,4 @@ for (let count = notes.length - 1; count >= 0; count--) { // Count is locally sc
     console.log(notes[count]); // Pulling individual item in the array as the count increments
 } // When we use the for statement with an array the count becomes the new index, we then use the bracket notation to grab the item by its index from the array 
 
+// Searching arrays
