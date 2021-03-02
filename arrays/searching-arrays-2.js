@@ -25,8 +25,8 @@ const findList = function (list, listTitle) {
 const lists = function (list, listTitle) { 
     const index = list.findIndex(function (nextItem, index) {
          return nextItem.title.toLowerCase() === listTitle.toLowerCase(); 
-    })
-    return list[index] 
+    });
+    return list[index]; 
 }
 
 // Not lowercase or uppercase sensitive after adding .toLowerCase method
