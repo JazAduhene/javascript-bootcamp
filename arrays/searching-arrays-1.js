@@ -18,7 +18,7 @@ console.log(someObject === otherObject);
 
 /*
 * NOTE: indexOf - always uses ===
-* NOTE: findIndex - allows me to specify my own way to compare two things, i.e by selecting titles
+* NOTE: findIndex - allows me to specify my own way to compare two objects within array, i.e by selecting titles
 */
 
 // findIndex returns a true or false value
