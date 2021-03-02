@@ -17,7 +17,7 @@ const findList = function (list, listTitle) {
     return list.find(function (listItem, index) {
          return listItem.title.toLowerCase() === listTitle.toLowerCase(); 
     });
-};
+}
 
 // Call for findIndex and find methods share the same purpose
 // Had to remove empty array, so .toLowerCase method could work within the function
