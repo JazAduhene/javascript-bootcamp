@@ -16,12 +16,15 @@ let someObject = {};
 let otherObject = someObject;
 console.log(someObject === otherObject);
 
-const index = list.findIndex(function (listItem, index) { // findIndex returns a true or false value
-    return listItem.title === 'Habits to work on'; // Uses === to go through list array and find item, Specified search criteria, in other words does this title match this string
+/*
+* NOTE: indexOf - always uses ===
+* NOTE: findIndex - allows me to specify my own way to compare two things, i.e by selecting titles
+*/
+
+// findIndex returns a true or false value
+// Uses === to go through list array and find item, Specified search criteria, in other words does this title match this string
+const index = list.findIndex(function (listItem, index) { 
+    return listItem.title === 'Habits to work on'; 
 });
 
 console.log(index);
-
-
-// indexOf - always uses ===
-// findIndex - allows me to specify my own way to compare two things, i.e by selecting titles. 
