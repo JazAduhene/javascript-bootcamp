@@ -1,6 +1,5 @@
 // Rule 1. Below an example of invalid variable, cannot define a variable more than once
 
-
 let petName = 'Jah';
 //let petName = 'Spot'
 
@@ -14,5 +13,4 @@ console.log(petName);
 let test_ = 2;
 let result = 3 - 4;
 
-// Rule 3. Variable names cannot be reserved keywords, for example the word let, it had s specific function so cannot be used as a vaiable 
-
+// Rule 3. Variable names cannot be reserved keywords, for example the word let, it had s specific function so cannot be used as a vaiable

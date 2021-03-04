@@ -5,16 +5,14 @@ let temp2 = 49;
 // Anything out of the created range of temperature 20 - 40 will not print a message.
 // Logical And Operator - True if both sides are true, false otherwise.
 
-
 if (temp1 >= 20 && temp1 <= 40) {
-    console.log('It is pretty nice out');
-} 
-
+  console.log('It is pretty nice out');
+}
 
 // Logical Or operator - Atleast 1 side has to be true.
 
 if (temp2 <= 0 || temp2 >= 50) {
-    console.log('Do not go outside');
+  console.log('Do not go outside');
 } else {
-    console.log('Do what you want');
+  console.log('Do what you want');
 }

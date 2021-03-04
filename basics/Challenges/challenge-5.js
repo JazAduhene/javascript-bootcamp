@@ -2,9 +2,9 @@
 
 let age = 65;
 if (age <= 7) {
-    console.log('You are eligible for the Child Discount!');
+  console.log('You are eligible for the Child Discount!');
 }
 
 if (age >= 65) {
-    console.log('You are eligible for the Senior Discount!');
+  console.log('You are eligible for the Senior Discount!');
 }

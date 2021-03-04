@@ -5,25 +5,23 @@
 // In a scope you can access variables defined in that scope or in any parent/ancestor scope.
 
 // Global scope always exists, this programs has one (varOne)
- // Local scope (varTwo)
-   // Local scope (varFour)
- // Local scope (varThree)
+// Local scope (varTwo)
+// Local scope (varFour)
+// Local scope (varThree)
 
 let varOne = 'varOne';
 
 if (true) {
-    console.log(varOne);
-    let varTwo = 'varTwo';
-    console.log(varTwo);
+  console.log(varOne);
+  let varTwo = 'varTwo';
+  console.log(varTwo);
 
-    if (true) {
-        let varFour = 'varFour';
-    }
+  if (true) {
+    let varFour = 'varFour';
+  }
 }
 
 if (true) {
-    let varThree = 'varThree';
-    console.log(varThree);
+  let varThree = 'varThree';
+  console.log(varThree);
 }
-
-

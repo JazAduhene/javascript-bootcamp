@@ -4,7 +4,7 @@ let firstName = 'Jaz';
 let lastName = 'Aduhene';
 
 //Below used concatenation to combine strings
-let fullName = `${firstName} ${ lastName}`;  
+let fullName = `${firstName} ${lastName}`;
 
 console.log(name);
 console.log(firstName);

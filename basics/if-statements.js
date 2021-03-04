@@ -20,12 +20,12 @@ if (isFreezing) {
 
 let temp = 41;
 
-if(temp <= 5) {
-    console.log('It is freezing outside!');
+if (temp <= 5) {
+  console.log('It is freezing outside!');
 }
 
 if (temp >= 40) {
-    console.log('It is way too hot outside!');
+  console.log('It is way too hot outside!');
 }
 
-// Used the if statement to print a message with conditions using operators 
+// Used the if statement to print a message with conditions using operators

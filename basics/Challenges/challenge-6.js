@@ -4,9 +4,9 @@
 let temp = 40;
 
 if (temp <= 15) {
-    console.log('It is freezing outside!');
+  console.log('It is freezing outside!');
 } else if (temp >= 30) {
-    console.log('It is hot outside!');
+  console.log('It is hot outside!');
 } else {
-    console.log('Go for it. It is pretty nice');
+  console.log('Go for it. It is pretty nice');
 }

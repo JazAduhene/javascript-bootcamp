@@ -1,5 +1,5 @@
 let name = 'Jaz Aduhene';
-let firstName = ' Jaz '
+let firstName = ' Jaz ';
 
 // Length property
 console.log(name.length);
@@ -14,18 +14,18 @@ console.log(name.toLowerCase());
 let password = '123abc$';
 console.log(password.includes('password'));
 
-// Trim Method 
+// Trim Method
 console.log(firstName.trim());
 
 // Challenge area
 
 let isValidPassword = function (password) {
-    return password.length > 8 && !password.includes('password');
-}
+  return password.length > 8 && !password.includes('password');
+};
 
-// Can use if statement but to shorten the function and get the same result, I can return 
+// Can use if statement but to shorten the function and get the same result, I can return
 //     if (password.length > 8 && !password.includes('password')) {
-//         return true; 
+//         return true;
 //     } else {
 //         return false;
 //     }
