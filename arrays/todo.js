@@ -21,11 +21,13 @@ for (let count = 0; count < todo.length; count++) {
   console.log(`${num}. ${todoList}`);
 }
 
-// console.log(todo);
-
-// console.log(`Todo: ${todo[0]}, ${todo[todo.length - 2]}`); // Prints the first and second to last items
-
-// Another way of doing the above
-
-// console.log(`Todo: ${todo[0]}`); // Prints the first item in the array
-// console.log(`Todo ${todo[todo.length - 2]}`); // Prints the second to last item in the array
+/*
+ * Prints the first and second to last items
+ * Prints the first item in the array
+ * Prints the second to last item in the array
+ * console.log(todo);
+ * console.log(`Todo: ${todo[0]}, ${todo[todo.length - 2]}`);
+ * Another way of doing the above
+ * console.log(`Todo: ${todo[0]}`);
+ * console.log(`Todo ${todo[todo.length - 2]}`);
+ */
